@@ -1,0 +1,25 @@
+{
+  "name": "medturnx-kiosko",
+  "version": "1.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron  . main.js",
+    "build": "nexe -t amd32  -o . --verbose --build",
+    "dist": "electron-builder --dir",
+    "build-pack": "electron-builder",
+    "buildIcon": "electron-builder build --win portable",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron/remote": "^2.0.10",
+    "electron": "^25.3.1",
+    "electron-builder": "^24.6.3"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "nexe": "^4.0.0-rc.2"
+  }
+}

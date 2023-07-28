@@ -1,0 +1,9 @@
+/node_modules
+/build
+/.env
+AllowEdgeSwipe.reg
+autostart.vbs
+disableSwipe.bat
+package-lock.json
+/medturn-kiosko
+/assets
