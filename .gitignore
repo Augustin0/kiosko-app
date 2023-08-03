@@ -7,3 +7,5 @@ disableSwipe.bat
 package-lock.json
 /medturn-kiosko
 /assets
+url_base.txt
+localStorage.txt

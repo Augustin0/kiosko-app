@@ -14,4 +14,6 @@ class EventManager extends Event {
 }
 
 EventManager.getInstance().on("configReady", EventManager.onChildClosed)
+EventManager.getInstance().on("readySet", EventManager.onChildClosed)
+
 module.exports.EventManager = EventManager

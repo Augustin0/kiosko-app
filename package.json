@@ -1,10 +1,10 @@
 {
   "name": "medturnx-kiosko",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Kioske app medturn",
   "main": "main.js",
   "scripts": {
-    "start": "electron  . main.js",
+    "start": "electron . ./main.js",
     "build": "nexe -t amd32  -o . --verbose --build",
     "dist": "electron-builder --dir",
     "build-pack": "electron-builder",
@@ -19,7 +19,9 @@
     "electron-builder": "^24.6.3"
   },
   "dependencies": {
+    "electron-unhandled": "^4.0.1",
     "jszip": "^3.10.1",
-    "nexe": "^4.0.0-rc.2"
+    "nexe": "^4.0.0-rc.2",
+    "socket.io": "^4.7.1"
   }
 }
